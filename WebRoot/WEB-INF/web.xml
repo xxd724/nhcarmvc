@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name></display-name>
+  <filter>
+  	<filter-name>adminFilter</filter-name>
+  	<filter-class>com.nh.filter.AdminFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>adminFilter</filter-name>
+  	<url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewsServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.NewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewslistServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.NewslistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.MessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletBase</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.ServletBase</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.IndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HeaderServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.HeaderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckuserServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.CheckuserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlert</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.LogoutServlert</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddUserServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.AddUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.adminlogin.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminIndexServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.AdminIndexServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>InsertNewsServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.InsertNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminNewslistServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.AdminNewslistServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.DeleteNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifyNewsServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.ModifyNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductAddServler</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.ProductAddServler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductListServler</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.ProductListServler</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductDeleteServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.ProductDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductModifyServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.ProductModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductAddppicServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.admin.ProductAddppicServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductlistFServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.ProductlistFServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.ProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessagePServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.MessagePServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductListSearchServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.ProductListSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddcartServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.AddcartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowcartServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.ShowcartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdatecartServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.UpdatecartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletecartServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.DeletecartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Deletecart_cuidServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.Deletecart_cuidServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.nh.nhcar.servlets.OrderServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>NewsServlet</servlet-name>
+    <url-pattern>/news</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewslistServlet</servlet-name>
+    <url-pattern>/newslist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/message</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletBase</servlet-name>
+    <url-pattern>/servletbase</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeaderServlet</servlet-name>
+    <url-pattern>/header</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckuserServlet</servlet-name>
+    <url-pattern>/checkuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlert</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserServlet</servlet-name>
+    <url-pattern>/adduser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/adminlogin/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminIndexServlet</servlet-name>
+    <url-pattern>/admin/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertNewsServlet</servlet-name>
+    <url-pattern>/admin/insertnews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminNewslistServlet</servlet-name>
+    <url-pattern>/admin/newslist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteNewsServlet</servlet-name>
+    <url-pattern>/admin/deletenews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyNewsServlet</servlet-name>
+    <url-pattern>/admin/modifynews</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductAddServler</servlet-name>
+    <url-pattern>/admin/productadd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductListServler</servlet-name>
+    <url-pattern>/admin/productlist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductDeleteServlet</servlet-name>
+    <url-pattern>/admin/productdelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductModifyServlet</servlet-name>
+    <url-pattern>/admin/productmodify</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductAddppicServlet</servlet-name>
+    <url-pattern>/admin/productaddppic</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductlistFServlet</servlet-name>
+    <url-pattern>/productlist</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessagePServlet</servlet-name>
+    <url-pattern>/messagep</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductListSearchServlet</servlet-name>
+    <url-pattern>/productlistsearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddcartServlet</servlet-name>
+    <url-pattern>/addcart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowcartServlet</servlet-name>
+    <url-pattern>/showcart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdatecartServlet</servlet-name>
+    <url-pattern>/updatecart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletecartServlet</servlet-name>
+    <url-pattern>/deletecart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Deletecart_cuidServlet</servlet-name>
+    <url-pattern>/deletecart_cuid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+</web-app>
